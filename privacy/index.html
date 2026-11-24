@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WaslBuzzed — Privacy Policy</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 16px/1.6 system-ui, sans-serif; max-width: 46rem; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
+  h1 { font-size: 1.8rem; margin-bottom: .25rem; }
+  h2 { margin-top: 2rem; }
+  hr { border: 0; border-top: 1px solid color-mix(in srgb, currentColor 20%, transparent); margin: 2rem 0; }
+  table { border-collapse: collapse; width: 100%; font-size: .95rem; }
+  th, td { text-align: left; vertical-align: top; padding: .5rem; border-bottom: 1px solid color-mix(in srgb, currentColor 15%, transparent); }
+  code { font-size: .9em; }
+</style>
+</head>
+<body>
+<h1>WaslBuzzed — Privacy Policy</h1>
+<p><strong>Last updated: 22 November 2026</strong></p>
+<p>This describes what WaslBuzzed collects, why, and what you can do about it. Every statement here was checked against what the code actually does. Where the app does less than you might expect, that is said plainly rather than left vague.</p>
+<hr>
+<h2>Who we are</h2>
+<p>WaslBuzzed is an independent app. Contact for anything in this policy: <strong><a href="mailto:glissinajib@gmail.com">glissinajib@gmail.com</a></strong></p>
+<hr>
+<h2>What we collect</h2>
+<h3>If you play as a guest</h3>
+<ul><li>A device identifier, so your progress stays with you</li><li>What you answer, your score, coins and trophies</li><li>The country on your account, if you set one</li></ul>
+<p>No name, no email, no password. A guest account is a full account.</p>
+<h3>If you create an account</h3>
+<ul><li><strong>Email address</strong> — to sign you in and to reset a password</li><li><strong>Password</strong> — stored only as an Argon2 hash. We cannot read it, and neither can anyone who obtains the database</li><li><strong>Display name</strong></li><li><strong>Year of birth</strong>, if you give one — used only to decide whether an account belongs to a minor</li><li><strong>A guardian&#x27;s email</strong>, if the account belongs to a minor</li></ul>
+<h3>If you add a profile photo</h3>
+<p>Optional. An account without one is complete and nothing in the app depends on it. The stored copy is cropped square and <strong>stripped of all metadata</strong>.</p>
+<h3>If you record a trip and add photos</h3>
+<p>This is the part that deserves the most detail.</p>
+<ul><li><strong>Photos you upload.</strong> The copy we keep is re-encoded and carries <strong>no EXIF metadata at all</strong> — no location, no camera, no timestamp</li><li><strong>Location read from the photo.</strong> If a photo carries GPS coordinates, we read them <strong>once</strong>, to check whether the photo was taken in the country you said you visited. The coordinates are kept alongside the photo record as the evidence for that check, and are <strong>never shown to anyone, never sent to another user, and never included in any API response</strong></li><li><strong>The date the photo was taken and the camera model</strong>, for the same check</li><li><strong>A fingerprint of the image</strong>, so the same picture uploaded by two people can be spotted</li></ul>
+<p>We do <strong>not</strong> track your location. We do not use background location. We read what is already inside a photo you chose to upload, for one purpose, and that purpose is to confirm a country.</p>
+<h3>If you go live</h3>
+<p>Live video is between you and people you have already added — family, or friends and family if you choose that. <strong>It is never public and a stranger can never watch.</strong> The server checks who you are before it will let you in, and a viewer is only ever able to receive: the permission to send is not given to anyone but you.</p>
+<ul><li><strong>Nothing is recorded.</strong> Not by us, not on the server, not anywhere. When you stop, there is nothing left — no file, no copy, nothing to watch later and nothing for us to hand over</li><li>The video does not pass through our servers in a form we keep. It goes through LiveKit, which carries it between the people watching</li><li>We keep the <strong>fact</strong> that a broadcast happened: who was live, when, for how long, and how many people watched. Not what was in it</li><li>Your camera and microphone are used <strong>only while you are broadcasting</strong>, and only after you have said yes. A person watching needs neither</li><li>An account that has not given a year of birth, or that belongs to somebody under 13, can only broadcast to <strong>family</strong></li></ul>
+<h3>If you post a story</h3>
+<p>A story is a video of up to two minutes. Unlike live video, <strong>a story is recorded and stored</strong> — that is what makes it a story rather than a broadcast.</p>
+<ul><li><strong>It disappears after 24 hours.</strong> Then the file is deleted from storage, not merely hidden</li><li><strong>Unless a great many people watch it.</strong> A story that reaches one million views within 30 days is kept indefinitely instead of expiring</li><li><strong>You can delete any story of yours at any time</strong>, however many people watched it and whether or not it was kept. Deleting your account deletes all of them, and their files</li><li><strong>You choose who sees it:</strong> friends and family, or everyone using the app. There is no anonymous or web link — a story never leaves the app</li><li><strong>An account belonging to somebody under 13, or with no year of birth given, cannot post publicly at all.</strong> Those stories are friends-and-family only, decided when the story is saved and not changeable afterwards</li><li>We store the video, the caption, how long it is, and <strong>which accounts watched it</strong> — one row per person, so a view count cannot be inflated. Who watched is never shown to anyone, including the author</li></ul>
+<h3>If you report a story</h3>
+<p>Anyone can report a story. We keep who reported it, why, and the decision. Reports from several people take a story out of everyone else&#x27;s feed while a person reviews it; a report that a child is in danger takes it out immediately. A story taken down has its video <strong>deleted</strong>, not just hidden.</p>
+<p>Reports are not shown to the person who was reported.</p>
+<h3>If you write advice</h3>
+<p>Advice is written for other users and is <strong>visible to everyone</strong>, along with your display name and the date of the trip it describes. Visa advice includes the nationality you enter.</p>
+<p>Advice never reveals <strong>why</strong> you travelled. A medical trip cannot become visible because you wrote a restaurant tip.</p>
+<h3>If your school or you buy a plan</h3>
+<p>Teacher and school plans are sold by invoice. The app stores <strong>which plan an account has and when it ends</strong> — nothing else. No card or bank details pass through the app or our servers.</p>
+<h3>Automatically</h3>
+<ul><li>IP address, in server logs</li><li>A device identifier, used to notice two accounts playing a ranked game from one phone</li></ul>
+<hr>
+<h2>What we do <strong>not</strong> collect</h2>
+<ul><li>Contacts, calendar, or your camera roll beyond the photo you pick</li><li>Your camera or microphone at any time other than while you are live</li><li>Background or continuous location</li><li>Advertising identifiers</li><li>Analytics from a third party</li></ul>
+<p>There is no advertising in WaslBuzzed and no third-party analytics SDK.</p>
+<hr>
+<h2>Who we share it with</h2>
+<p><strong>Nobody.</strong> We do not sell data, and we do not share it with advertisers or data brokers.</p>
+<p>Data is processed by the services that run the app:</p>
+<table><thead><tr>
+<th>Purpose</th>
+<th>What they see</th>
+</tr></thead><tbody>
+<tr><td>Hosting</td><td>Everything, as the operator of the server. The database, uploaded photos and story videos are all stored on it</td></tr>
+<tr><td>Email delivery</td><td>Your address and the invitation text, if you send one</td></tr>
+<tr><td>Live video</td><td>The picture and sound while you are live, carried and not kept</td></tr>
+</tbody></table>
+<p>Some of these may be outside your country. Where GDPR applies, transfers rely on the provider&#x27;s Standard Contractual Clauses.</p>
+<hr>
+<h2>What other users can see</h2>
+<table><thead><tr>
+<th>Visible to everyone</th>
+<th>Never visible to anyone else</th>
+</tr></thead><tbody>
+<tr><td>Display name, profile photo</td><td>Email address</td></tr>
+<tr><td>Coins, trophies, leaderboard position</td><td>Password</td></tr>
+<tr><td>Countries you recorded and whether confirmed</td><td>GPS read from your photos</td></tr>
+<tr><td>Advice you wrote</td><td>Year of birth</td></tr>
+<tr><td>Stories you posted, to the audience you chose</td><td>Which accounts watched your story</td></tr>
+<tr><td>That you were live, to friends and family</td><td>Any recording of a broadcast — none is made</td></tr>
+<tr><td>Photos you added to a trip</td><td>Why you travelled (trip type)</td></tr>
+</tbody></table>
+<p>A trip marked <strong>medical</strong> is never shown publicly, whatever privacy setting you choose. That is enforced when it is saved, not filtered when it is read.</p>
+<hr>
+<h2>How long we keep it</h2>
+<ul><li><strong>Your account and its data:</strong> until you delete it</li><li><strong>Notifications:</strong> 90 days</li><li><strong>Live video:</strong> not kept at all. The record that a broadcast happened is kept with your account</li><li><strong>Stories:</strong> 24 hours, then the video is deleted. A story that passed one million views within 30 days is kept until you delete it</li><li><strong>Reports on a story:</strong> kept with the story, and go when it goes</li><li><strong>Server logs:</strong> 30 days</li></ul>
+<hr>
+<h2>Deleting everything</h2>
+<p><strong>My Space → Profile → Delete my account.</strong></p>
+<p>This removes your account, trips, photos, advice, coins, friendships, invitations, notifications, your stories and their video files, and the record of any broadcast you made. Your photos are deleted from storage. It is immediate and cannot be undone.</p>
+<p>The only thing retained is an audit record that a deletion occurred, holding an identifier and an action — nothing personal. That record is what the deletion itself is answerable to.</p>
+<p>You do not need to email anyone, and there is no waiting period.</p>
+<hr>
+<h2>Your rights</h2>
+<p>Where GDPR or similar law applies you may ask us to give you a copy of your data, correct it, delete it, or restrict how it is used. Deletion is available in the app immediately; for anything else, write to <strong><a href="mailto:glissinajib@gmail.com">glissinajib@gmail.com</a></strong> and we will answer within 30 days.</p>
+<hr>
+<h2>Children</h2>
+<p>WaslBuzzed is not directed at children under 13. An account that gives a birth year below that threshold requires a guardian&#x27;s email and consent before it can join a public room or be seen by strangers.</p>
+<p>You must accept the Terms and Community Rules (published at /terms) when you register. They ban violent, sexual, hateful and child-endangering content. Photos may be scanned automatically for adult or violent content before they are stored; the image is sent to Google Cloud Vision for that check and is not kept by us for it. Anyone can report a story or business offer in the app.</p>
+<p>You can delete your account in the app or at /delete-account.</p>
+<p>If you believe a child has given us data without consent, write to <strong><a href="mailto:glissinajib@gmail.com">glissinajib@gmail.com</a></strong> and we will delete it.</p>
+<hr>
+<h2>Security</h2>
+<ul><li>Passwords hashed with Argon2</li><li>Sessions use short-lived access tokens and revocable refresh tokens</li><li>All traffic over HTTPS</li><li>Photo metadata stripped before storage</li></ul>
+<p>No system is perfect. If you find a problem, please tell us at <strong><a href="mailto:glissinajib@gmail.com">glissinajib@gmail.com</a></strong> rather than publishing it.</p>
+<hr>
+<h2>Changes</h2>
+<p>If this policy changes materially we will say so in the app before the change takes effect.</p>
+</body>
+</html>
